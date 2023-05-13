@@ -1,0 +1,103 @@
+*{
+    padding:0 0;
+    margin:0 0;
+}
+.contact-container{
+    height:100%;
+    max-height: 100vh;
+    overflow-y:scroll;
+    position: static;
+    /* padding-top: 20px; */
+    z-index: 2;
+}
+
+.heading{
+    display:flex;
+    background-color: rgb(216, 216, 216);
+    height:70px;
+    position:fixed;
+    width:28.9%;
+    z-index: 2;
+}
+.profile-photo
+{
+    width:50%;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+.contacts-icons
+{
+    width:50%;
+    position: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contacts-icons ul{
+    display:flex;
+}
+.contacts-icons li{
+    list-style: none;
+    margin-right: 30px;
+}
+.search_menu{
+    height:50px;
+    display:flex;
+    position:fixed;
+    margin-top: 70px;
+    width: 28.9%;
+    z-index:2;
+    background-color: rgb(248, 248, 248);
+}
+.search_menu .inner-search-menu{
+    display:flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width:93%;
+    height:30px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+.search_menu  .inner-search-menu div input{
+    width:80%;
+    border:none;
+    margin-top: 7px;
+    margin-left: 20px;
+    background-color: rgb(216, 216, 216);
+}
+.search_menu  .inner-search-menu div input:focus{
+    outline: none;
+}
+.search_menu  .inner-search-menu div:nth-child(1){
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.filter-icon{
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.contacts-menu{
+    margin-top:120px;
+    width:100%;
+}
+.message-div{
+    display:flex;
+    height:70px;
+    /* background-color: rgb(196, 215, 244); */
+    margin-top: 1px;
+    
+}
+.message-div:hover{
+    background-color:  rgb(216, 216, 216);
+}
+.message-content{
+    margin-left: 20px;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+}
+.message-content h4,p{
+    margin:0 0 0 0;
+}
+.message-content{
+    margin-top: 9px;
+}

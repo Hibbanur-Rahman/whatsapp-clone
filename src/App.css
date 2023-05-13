@@ -1,0 +1,10 @@
+.App{
+  display:flex;
+}
+.Contacts-section{
+  width:30%;
+}
+.Messages-section{
+  width:70%;
+  max-height: 100vh;
+}
